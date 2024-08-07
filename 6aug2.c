@@ -181,38 +181,38 @@ int main(){
         printf("discount:%.2f\n",disc);
        float total_pay;
         total_pay=amount-disc;
-        printf("total amount : %.2f",total_pay);
+        printf("total amount : %.2f\n",total_pay);
 
     }
-     if(u>=11 && u<=20){
+    else if(u>=11 && u<=20){
         float disc;
         disc = amount*0.15;
         printf("discount : %.2f\n",disc);
         float total_pay;
         total_pay=amount-disc;
-        printf("total amount : %.2f",total_pay);
+        printf("total amount : %.2f\n",total_pay);
 
     }
-    if(u>=21 && u<=40){
+    else if(u>=21 && u<=40){
         float disc;
         disc = amount*0.3;
         printf("discount:%.2f\n",disc);
         float total_pay;
         total_pay=amount-disc;
-        printf("total amount : %.2f",total_pay);
+        printf("total amount : %.2f\n",total_pay);
 
     }
-    if(u==50){
+    else if(u>=41 && u<=50){
         float disc;
         disc = amount*0.5;
         printf("discount : %.2f\n",disc);
         float total_pay;
         total_pay=amount-disc;
-        printf("total amount : %.2f",total_pay);
+        printf("total amount : %.2f\n",total_pay);
 
     } 
-else{
+    else{
     printf("no discount pay full amount");
-}
+    }
 
 }
