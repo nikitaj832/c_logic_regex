@@ -10,7 +10,6 @@ int main(){
    return 0;
 }
 int swap(int a,int b){
-    
     a=a+b;
     b=a-b;
     a=a-b;
@@ -23,6 +22,6 @@ int wswap(int a,int b){
     a=b;
     b=temp;
     printf("after swaping:%d\n",a,b);
-   return a,b;
+    return a,b;
 
 }
